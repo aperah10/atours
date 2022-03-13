@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:khatu1/AllWidCheck.dart';
 
+import 'UniCommon/bottomNav.dart';
 import 'home.dart';
 
 void main() {
@@ -13,12 +15,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      debugShowCheckedModeBanner: false,
-      home: MyHomePage(),
-    );
+        title: 'Flutter Demo',
+        theme: ThemeData(
+          primarySwatch: Colors.blue,
+        ),
+        debugShowCheckedModeBanner: false,
+        // home: HomeScreen(),
+        home: UserNavigationBar());
   }
 }

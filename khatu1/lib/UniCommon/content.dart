@@ -23,7 +23,7 @@ class PicTxtContent extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
           Expanded(
-            child: Img(
+            child: Pics(
               src: 'assets/images/COUPON.jpg',
               height: 120,
               width: 120,
